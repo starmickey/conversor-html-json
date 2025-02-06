@@ -28,4 +28,4 @@ const html = fs.readFileSync(source, "utf8");
 const jsonString = htmlToJsonString(html);
 
 // Guardar el resultado en un archivo de salida llamado "output.html"
-fs.writeFileSync("output.html", jsonString, "utf8");
+fs.writeFileSync("output.json", jsonString, "utf8");
